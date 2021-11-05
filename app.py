@@ -13,7 +13,7 @@ import os
 
 application = Flask(__name__)
 
-@application.route('/home')
+@application.route('/')
 def home():    
     # return "hello"
     return render_template("index.html")
